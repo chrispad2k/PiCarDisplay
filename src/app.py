@@ -1,13 +1,11 @@
-#!/usr/bin/env python3
-
-# sys.path.append(os.path.abspath(os.path.dirname(__file__) + '/../lib'))
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../lib')))
 
 import pyximport
 pyximport.install()
 
-import test
-
-import graphics
+from rgbmatrix import graphics
 from samplebase import SampleBase
 import time
 
