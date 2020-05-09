@@ -12,6 +12,8 @@ In order to run the application, clone this repository onto your Raspberry Pi.
 
 The Adafruit HAT needs to be connected to a power supply with 5V and at least 6-8A of power. The Raspberry Pi itself **should not** be attached to power over Micro-USB.
 
+**Attention:** Be aware that the Adafruit HAT is not touching the Raspberry Pi with its pins! (Except of course the connector with the GPIO pins of the Raspberry Pi). This can cause problems with the RGB Matrix output.
+
 ## Running the Demo
 
 The demo can be run with the provided demo script
